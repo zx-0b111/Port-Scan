@@ -11,8 +11,10 @@ namespace ConsoleApp1
     {
         private static string ip;
         private static int porta;
-        public static void DetectTCP()
-        {
+        
+    
+    public static void DetectTCP()
+    {
         while (true)
         {
                 TcpClient tcpClient = new TcpClient();
