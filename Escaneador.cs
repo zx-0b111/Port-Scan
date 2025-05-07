@@ -15,7 +15,6 @@ namespace ConsoleApp1
         {
         while (true)
         {
-
                 TcpClient tcpClient = new TcpClient();
 
                 Console.Write("Ip: ");
